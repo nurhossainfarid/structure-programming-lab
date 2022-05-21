@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1652847208 source:e:\basic_c_programming\first\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1652847200 source:e:\basic_c_programming\first\float.c
+	<stdio.h>
+	<stdlib.h>
+
