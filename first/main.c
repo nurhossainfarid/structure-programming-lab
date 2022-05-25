@@ -2,6 +2,7 @@
 #include <stdlib.h>
 
 int main() {
+    int i;
 
 //    double basic_salary, dearness_allownance, house_rent, gross_salary;
 //
@@ -15,8 +16,13 @@ int main() {
 //    gross_salary = basic_salary - dearness_allownance - house_rent;
 //    printf("Gross salary of niloys = %.2lf\n", gross_salary);
 
-    FindBiggestNumber();
-                                    //
+//    FindBiggestNumber();
+//    OrOperator();
+//    StudentResult();
+//      LoseProfite();
+      for(i = 1; i<=10; i++) {
+        printf("%d", i);
+      }
                                             //        addition, substraction, multiply, division of float number in a range
                                     //
 //   float a,b,sum, sub, mult, div;
