@@ -3,19 +3,19 @@
 
 int main() {
 
-    double basic_salary, dearness_allownance, house_rent, gross_salary;
+//    double basic_salary, dearness_allownance, house_rent, gross_salary;
+//
+//    printf("Enter niloys basic_salary : ");
+//    scanf("%lf", &basic_salary);
+//    printf("basic salary %.2lf\n", basic_salary);
+//    dearness_allownance = basic_salary * 0.4;
+//    printf("dearness_allownance = %.2lf\n", dearness_allownance);
+//    house_rent = basic_salary * 0.2;
+//    printf("house_rent = %.2lf\n", house_rent);
+//    gross_salary = basic_salary - dearness_allownance - house_rent;
+//    printf("Gross salary of niloys = %.2lf\n", gross_salary);
 
-    printf("Enter niloys basic_salary : ");
-    scanf("%lf", &basic_salary);
-    printf("basic salary %.2lf\n", basic_salary);
-    dearness_allownance = basic_salary * 0.4;
-    printf("dearness_allownance = %.2lf\n", dearness_allownance);
-    house_rent = basic_salary * 0.2;
-    printf("house_rent = %.2lf\n", house_rent);
-    gross_salary = basic_salary - dearness_allownance - house_rent;
-    printf("Gross salary of niloys = %.2lf\n", gross_salary);
-
-
+    FindBiggestNumber();
                                     //
                                             //        addition, substraction, multiply, division of float number in a range
                                     //
