@@ -1,26 +1,28 @@
 #include<stdio.h>
+#include<math.h>
 
 int main() {
-    int  num, sum = 0, reminder, temp;
+    int num, temp, count = 0, reminder, sum=0;
 
     printf("Enter your value : ");
     scanf("%d", &num);
-
     temp = num;
 
-    while (temp !=0) {
-        reminder = temp % 10;
-        sum = sum + reminder * reminder * reminder;
+    while (temp !=0){
         temp = temp / 10;
+        count += 1;
     }
+    temp = count;
+    int temp_new = num;
 
-    if (num == sum)
+    while (temp!=0)
     {
-        printf("%d is armstrong number.", num);
-    } else {
-        printf("%d is not armstrong number.", num);
+        reminder = temp_new % 10;
+        sum = sum + pow(reminder, count);
+        temp_new = temp_new / 10;
+        temp--;
     }
-
-    return 0;
+    printf("%d", sum);
+    
     
 }
