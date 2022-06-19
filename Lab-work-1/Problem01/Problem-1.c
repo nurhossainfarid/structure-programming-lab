@@ -9,3 +9,4 @@ int main() {
     gross_salary = salary - (dearness_allowance + house_rent);
     printf("GrossSalary of Niloys = %.2lf", gross_salary);
 }
+
